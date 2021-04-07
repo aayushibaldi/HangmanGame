@@ -33,7 +33,7 @@ class Hangman {
         } else if (this.status === 'failed') {
             return `The word was "${this.word.join('')}".`
         } else {
-            return 'You guesses the word.'
+            return 'You guessed the word.'
         }
     }
     get puzzle() {
